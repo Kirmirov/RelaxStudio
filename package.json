@@ -1,0 +1,29 @@
+{
+  "name": "relax-studio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "d": "webpack-dev-server --open --mode=development",
+    "b": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirmirov/RelaxStudio.git"
+  },
+  "author": "Kirill Suharev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kirmirov/RelaxStudio/issues"
+  },
+  "homepage": "https://github.com/Kirmirov/RelaxStudio#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "path": "^0.12.7",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
